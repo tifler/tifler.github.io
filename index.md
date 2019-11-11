@@ -5,4 +5,6 @@
 layout: home
 ---
 
-Hello world
+Welcom to yiyol.com !
+
+This page is under construction.
