@@ -2,7 +2,7 @@
 layout: post
 title:  "Install Jetson Nano"
 date:   2020-01-19 13:00:00 +0900
-categories: blog dnn jetson-nano nvidia install
+categories: blog
 ---
 
 ***Jetson Nano에 사전 빌드된 SD 카드 이미지를 설치하는 과정을 설명합니다.***
@@ -38,4 +38,15 @@ categories: blog dnn jetson-nano nvidia install
 ## 3. 전원연결 및 설정
 * 기본적인 Ubuntu 설정과 동일
 
+## 4. 커스텀 설정
+
+* Swap 파일 생성 (4GB)
+
+```
+sudo fallocate -l 4G /var/.swap
+sudo chmod 600 /var/.swap
+sudo mkswap /var/.swap
+sudo swapon /var/.swap
+sudo bash -c 'echo "/var/.swap swap swap defaults 0 0" >> /etc/fstab'
+```
 

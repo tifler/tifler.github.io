@@ -2,7 +2,7 @@
 layout: post
 title:  "Unboxing Jetson Nano"
 date:   2020-01-18 16:00:00 +0900
-categories: blog h/w jetson-nano nvidia
+categories: blog
 ---
 
 ***NVIDIA의 JetsonNano 언박싱***
