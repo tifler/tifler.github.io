@@ -1,7 +1,7 @@
 title: Yiyol! Enjoy hacking!
 author: tifler
-url: https://tifler.github.io
-baseurl: /blog
+# url: https://tifler.github.io
+# baseurl: /blog
 email: nungdo@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
