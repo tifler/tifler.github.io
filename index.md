@@ -1,1 +1,6 @@
-Welcome to Yiyol.com
+---
+layout: default
+---
+
+Welcome to yiyol.com
+
