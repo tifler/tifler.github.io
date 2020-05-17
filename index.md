@@ -1,8 +1,3 @@
----
-layout: simple
-title: "Yiyol"
-permalink: index.html
----
+Welcome to yiyol.com
 
-Welcome to Yiyol.com
-
+---
