@@ -1,8 +1,11 @@
 ---
-layout: post
 title:  "Install Jetson Nano"
-date:   2020-01-19 13:00:00 +0900
-categories: blog
+toc: true
+tags:
+ - JetsonNano
+ - nvidia
+ - howto
+ - sd
 ---
 
 ***Jetson Nano에 사전 빌드된 SD 카드 이미지를 설치하는 과정을 설명합니다.***
@@ -31,9 +34,9 @@ categories: blog
 * Flash 툴인 [Etcher 다운로드](https://www.balena.io/etcher/)
 
 * 다운로드된 zip 파일을 이용해 SD 카드 flash 하기 (12GB로 확장됨)
-![Image Alt Flash](/assets/img/2020-01-18/Flash.png)
+![Image Alt Flash](/assets/images/2020-01-18/Flash.png)
 * 자동으로 verification이 이루어 지는 화면
-![Image Alt Verify](/assets/img/2020-01-18/Verify.png)
+![Image Alt Verify](/assets/images/2020-01-18/Verify.png)
 
 ## 3. 전원연결 및 설정
 * 기본적인 Ubuntu 설정과 동일
